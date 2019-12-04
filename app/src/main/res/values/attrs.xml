@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomTextView">
+        <attr name="textView_boolean" format="boolean" />
+        <attr name="textView_string" format="string" />
+        <attr name="textView_integer" format="integer" />
+        <attr name="textView_enum" format="enum">
+            <enum name="top" value="1" />
+            <enum name="bottom" value="2" />
+        </attr>
+        <attr name="textView_dimension" format="dimension" />
+    </declare-styleable>
+
+</resources>
