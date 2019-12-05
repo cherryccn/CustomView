@@ -12,4 +12,12 @@
         <attr name="textView_dimension" format="dimension" />
     </declare-styleable>
 
+    <declare-styleable name="RoundProgressBar">
+        <attr name="color" format="color" />
+        <attr name="line_width" format="dimension" />
+        <attr name="radius" format="dimension" />
+        <attr name="android:progress" />
+        <attr name="android:textSize" />
+    </declare-styleable>
+
 </resources>

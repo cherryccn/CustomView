@@ -14,7 +14,6 @@
         app:textView_boolean="true"
         app:textView_dimension="100dp"
         app:textView_enum="bottom"
-        app:textView_integer="10086"
-         />
-<!--    app:textView_string="asdasd"-->
+        app:textView_integer="10086" />
+    <!--    app:textView_string="asdasd"-->
 </RelativeLayout>
