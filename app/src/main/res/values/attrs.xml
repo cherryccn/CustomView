@@ -14,7 +14,7 @@
 
     <declare-styleable name="RoundProgressBar">
         <attr name="color" format="color" />
-        <attr name="line_width" format="dimension" />
+        <attr name="lineWidth" format="dimension" />
         <attr name="radius" format="dimension" />
         <attr name="android:progress" />
         <attr name="android:textSize" />

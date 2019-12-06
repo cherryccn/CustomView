@@ -16,4 +16,10 @@
         app:textView_enum="bottom"
         app:textView_integer="10086" />
     <!--    app:textView_string="asdasd"-->
+
+    <Button
+        android:id="@+id/btn_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="进度view"/>
 </RelativeLayout>
