@@ -22,6 +22,9 @@ public class CustomTextView extends View {
 
     private static final String TAG = "CustomTextView";
 
+    private static final String INSTANCE = "instance";
+    private static final String KEY_TEXT = "key_text";
+
     private boolean booleanText = false;
     private String stringText = "default";
     private int integerText = -1;
@@ -141,9 +144,6 @@ public class CustomTextView extends View {
         invalidate();//重绘
         return true;
     }
-
-    private static final String INSTANCE = "instance";
-    private static final String KEY_TEXT = "key_text";
 
     @Nullable
     @Override
